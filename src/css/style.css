@@ -104,11 +104,11 @@ figcaption {
   margin: auto;
 }
 .players {
-  background-image: url(/images/player.jpg);
+  background-image: url(../public/images/player.jpg);
  
 }
 .clubs {
-  background-image: url(/images/club.jpg);
+  background-image: url(../public/images/club.jpg);
  
 }
 .players,
