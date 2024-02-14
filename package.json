@@ -1,0 +1,16 @@
+{
+  "name": "soccer-metadata",
+  "version": "1.0.0",
+  "description": "Application for soccer fenatics",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite"
+  },
+  "author": "Namwera Proud <proudnamwera4@gmail.com>",
+  "dependencies": {
+    "lint": "^0.8.19",
+    "prettier": "^3.2.5",
+    "vite": "^5.1.1"
+  }
+}

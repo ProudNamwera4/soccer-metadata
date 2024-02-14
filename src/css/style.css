@@ -1,0 +1,134 @@
+:root {
+  --font-body: Arial, Helvetica, sans-serif;
+  --font-headline: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  /* colors */
+  --primary-color: #2b2828;
+  --secondary-color: rgba(127, 225, 114, 0.52);
+  --tertiary-color: #0c830c;
+  --light-grey: #ffffff;
+  --dark-grey: black;
+
+  /* sizes */
+  --font-base: 18px;
+  --small-font: 0.8em;
+  --large-font: 1.2em;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--font-base);
+  color: var(--dark-grey);
+}
+img {
+  max-width: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.logo {
+  line-height: 60px;
+  width: 245px;
+  overflow: hidden;
+  display: flex;
+  font-size: 30px;
+  text-align: right;
+  font-family: var(--font-headline);
+}
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+.logo a {
+  text-decoration: none;
+  color: var(--font-body);
+}
+.hero {
+  position: relative;
+}
+.hero .logo {
+  position: absolute;
+  left: calc(50% - 60px);
+  bottom: -10px;
+  background-color: white;
+}
+
+.highlight {
+  color: var(--tertiary-color);
+}
+
+.divider {
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.mission {
+  padding: 0 0.5em;
+  /* margin: 0.5em 0; */
+  line-height: 1.3;
+  max-width: 600px;
+  margin: auto;
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    max-width: 1080px;
+    margin: auto;
+  }
+  .mission {
+    font-size: 1.2em;
+  }
+  .cart-card {
+    font-size: inherit;
+    grid-template-columns: 150px auto 15%;
+  }
+  .category-box {
+    flex: 1 1 calc(25% - 1em);
+  }
+}
+
+footer {
+  font-size: var(--small-font);
+  padding: 1em;
+}
+figcaption {
+  text-align: center;
+}
+.sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-column-gap: 10px;
+  margin: auto;
+}
+.players {
+  background-image: url(/images/player.jpg);
+ 
+}
+.clubs {
+  background-image: url(/images/club.jpg);
+ 
+}
+.players,
+.clubs {
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+.players h4 ,
+.clubs h4,
+.players h2 ,
+.clubs h2{
+  background-color: rgba(127, 225, 114, 0.52);;
+  color: black;
+
+}
+h2{
+ width: 100px;
+ margin-left: 195px;
+}
+h1{
+  text-align: center;
+}
