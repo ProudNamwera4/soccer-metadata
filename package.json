@@ -1,5 +1,6 @@
 {
   "name": "soccer-metadata",
+  "homepage": "https://proudnamwera4.github.io/soccer-metadata/src/index.html",
   "version": "1.0.0",
   "description": "Application for soccer fenatics",
   "main": "main.js",
@@ -9,6 +10,7 @@
   },
   "author": "Namwera Proud <proudnamwera4@gmail.com>",
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "lint": "^0.8.19",
     "prettier": "^3.2.5",
     "vite": "^5.1.1"
