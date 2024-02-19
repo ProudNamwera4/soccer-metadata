@@ -93,7 +93,7 @@ figcaption {
 .sections {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-column-gap: 10px;
+  grid-gap: 10px;
   margin: auto;
 }
 .leagues {
@@ -132,4 +132,8 @@ h1{
 }
 .card:nth-child(even){
   background-color: rgba(127, 225, 114, 0.52) ;
+}
+.card{
+  padding:5px;
+  text-align: center;
 }

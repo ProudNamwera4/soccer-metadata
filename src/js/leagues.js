@@ -2,7 +2,7 @@ const url = "https://www.thesportsdb.com/api/v1/json/3/all_leagues.php";
 const leaguesDiv = document.querySelector("#leagues");
 import { loadHeaderFooter } from "./util.mjs";
 
-loadHeaderFooter();
+loadHeaderFooter("../../public/partials/header.html","../../public/partials/footer.html");
 
 async function apiFetch(){
     try{

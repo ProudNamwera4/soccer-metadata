@@ -1,3 +1,3 @@
 import { loadHeaderFooter } from "./util.mjs";
 
-loadHeaderFooter();
+loadHeaderFooter("../public/partials/header.html","../public/partials/footer.html");
