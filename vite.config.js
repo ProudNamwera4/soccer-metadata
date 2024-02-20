@@ -11,6 +11,8 @@ export default defineConfig({
         main: resolve(__dirname, "src/index.html"),
         leagues: resolve(__dirname, "src/pages/leagues.html"),
         players: resolve(__dirname, "src/pages/players.html"),
+        header: resolve(__dirname, "src/public/partials/header.html"),
+        footer: resolve(__dirname, "src/public/partials/footer.html"),
       },
     },
   },

@@ -97,11 +97,12 @@ figcaption {
   margin: auto;
 }
 .leagues {
-  background-image: url(../public/images/player.jpg);
+ 
+  background-image: url(../public/images/club.jpg);
  
 }
 .players {
-  background-image: url(../public/images/club.jpg);
+  background-image: url(../public/images/player.jpg);
  
 }
 .leagues,
@@ -144,5 +145,6 @@ h1{
   margin-left: 10px;
 }
 #playerDescription{
-  background-image: url(../publiplayersges/ronaldo.jpg);
+  background-image: url(../public/images/ronaldo.jpg);
+  color: white;
 }

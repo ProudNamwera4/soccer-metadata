@@ -4,8 +4,8 @@ const leaguesDiv = document.querySelector("#players");
 let searchBtn = document.querySelector("#searchBtn")
 let playerName = "";
 loadHeaderFooter(
-  "../../public/partials/header.html",
-  "../../public/partials/footer.html",
+  "./../public/partials/header.html",
+  "./../public/partials/footer.html",
 );
 
 

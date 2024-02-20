@@ -3,8 +3,8 @@ const leaguesDiv = document.querySelector("#leagues");
 import { loadHeaderFooter } from "./util.mjs";
 
 loadHeaderFooter(
-  "../../public/partials/header.html",
-  "../../public/partials/footer.html",
+  "./../public/partials/header.html",
+  "./../public/partials/footer.html",
 );
 
 async function apiFetch() {
