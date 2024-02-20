@@ -100,20 +100,20 @@ figcaption {
   background-image: url(../public/images/player.jpg);
  
 }
-.clubs {
+.players {
   background-image: url(../public/images/club.jpg);
  
 }
 .leagues,
-.clubs {
+.players {
   padding: 10px;
   text-align: center;
   justify-content: center;
 }
 .leagues h4 ,
-.clubs h4,
+.players h4,
 .leagues h2 ,
-.clubs h2{
+.players h2{
   background-color: rgba(127, 225, 114, 0.52);;
   color: black;
 
@@ -136,4 +136,13 @@ h1{
 .card{
   padding:5px;
   text-align: center;
+}
+
+#playerName, label{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+#playerDescription{
+  background-image: url(../publiplayersges/ronaldo.jpg);
 }
